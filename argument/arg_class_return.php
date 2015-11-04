@@ -1,5 +1,6 @@
 <?php
 //	クラス(オブジェクト)で引数を渡し、内容を更新
+//	内容の反映を明示するため戻り値で更新を反映する
 
 class Param
 {
@@ -18,6 +19,7 @@ class Param
 function increase($arg)
 {
 	$arg->count += 1;
+	return	$arg;
 }
 
 $arg = new Param();
@@ -25,7 +27,7 @@ $arg = new Param();
 for($i=0; $i<10000000; $i++)
 //for($i=0; $i<100000; $i++)
 {
-	increase($arg);
+	$arg = increase($arg);
 }
 
 printf("結果=%d\n", $arg->count);
