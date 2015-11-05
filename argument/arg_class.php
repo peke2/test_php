@@ -18,6 +18,7 @@ class Param
 function increase($arg)
 {
 	$arg->count += 1;
+	//$arg->param['b'] += 1;		//	配列への加算だと若干遅い
 }
 
 $arg = new Param();
@@ -29,4 +30,5 @@ for($i=0; $i<10000000; $i++)
 }
 
 printf("結果=%d\n", $arg->count);
+//printf("結果=%d\n", $arg->param['b']);
 
