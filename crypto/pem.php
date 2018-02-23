@@ -21,6 +21,8 @@ $decoded_bin = base64_decode('MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKyFUZgVCVeRmurFy3
 echo bin2hex($decoded_bin);
 
 
+$pem_bin = '3048024100ac855198150957919aeac5cb730eb5b2a63d79ef1a5060173ba7e2cd9024cd1b7449a83c8487149e785fcbd58b14f1705ee8b501367a6f39abd1b4dda7beca2b0203010001';
+echo base64_encode(hex2bin($pem_bin));
 
 
 

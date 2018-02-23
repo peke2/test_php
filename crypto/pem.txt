@@ -1,0 +1,47 @@
+
+
+30,5c,30,0d,06,09,2a,86,48,86,f7,0d,01,01,01,05,
+00,03,4b,00,30,48,02,41,00,ac,85,51,98,15,09,57,
+91,9a,ea,c5,cb,73,0e,b5,b2,a6,3d,79,ef,1a,50,60,
+17,3b,a7,e2,cd,90,24,cd,1b,74,49,a8,3c,84,87,14,
+9e,78,5f,cb,d5,8b,14,f1,70,5e,e8,b5,01,36,7a,6f,
+39,ab,d1,b4,dd,a7,be,ca,2b,02,03,01,00,01,
+
+
+30,5c,
+30,0d,
+06,09,2a,86,48,86,f7,0d,01,01,01,05,00,
+03,4b,
+00,
+30,48,
+02,41,
+00,ac,85,51,98,15,09,57,
+91,9a,ea,c5,cb,73,0e,b5,b2,a6,3d,79,ef,1a,50,60,
+17,3b,a7,e2,cd,90,24,cd,1b,74,49,a8,3c,84,87,14,
+9e,78,5f,cb,d5,8b,14,f1,70,5e,e8,b5,01,36,7a,6f,
+39,ab,d1,b4,dd,a7,be,ca,2b,
+02,03,01,00,01,
+
+0x30,0x0d,0x06,0x09,0x2a,0x86,0x48,0x86,0xf7,0x0d,0x01,0x01,0x01,0x05,0x00,
+
+
+
+Public-Key: (1024 bit)
+Modulus:
+    00:9c:64:10:9a:a6:e0:d1:07:8f:a4:83:97:1a:20:
+    6d:fd:82:d4:66:a2:82:49:a8:88:5a:90:4c:d6:ad:
+    0c:98:e0:da:47:4a:57:c2:a6:13:9d:b6:5f:13:d5:
+    42:96:5c:fe:f4:29:e8:23:43:08:81:b3:da:cc:3a:
+    89:30:04:ca:c1:96:5f:8d:cb:86:3b:bf:f4:fa:52:
+    2d:63:35:6c:1a:d3:8b:fc:0e:7f:13:01:52:16:77:
+    bd:ff:7f:1f:6f:4b:26:86:a7:8d:3b:20:34:8a:32:
+    91:75:44:80:e4:29:6b:1a:d9:ee:ba:c9:90:be:51:
+    c8:a4:71:83:e0:78:72:bd:bd
+Exponent: 17 (0x11)
+writing RSA key
+-----BEGIN PUBLIC KEY-----
+MIGdMA0GCSqGSIb3DQEBAQUAA4GLADCBhwKBgQCcZBCapuDRB4+kg5caIG39gtRm
+ooJJqIhakEzWrQyY4NpHSlfCphOdtl8T1UKWXP70KegjQwiBs9rMOokwBMrBll+N
+y4Y7v/T6Ui1jNWwa04v8Dn8TAVIWd73/fx9vSyaGp407IDSKMpF1RIDkKWsa2e66
+yZC+UcikcYPgeHK9vQIBEQ==
+-----END PUBLIC KEY-----
